@@ -1,3 +1,5 @@
+### Some things to remember
+
 - > yarn create next-app moveit-next
 - `_app.js` -> `_app.tsx`
 - `index.js` -> `index.tsx`
