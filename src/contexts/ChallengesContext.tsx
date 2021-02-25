@@ -53,9 +53,12 @@ export function ChallengeProvider({ children }: ChallengeProviderProps) {
     new Audio('/notification.mp3').play();
 
     if (Notification.permission === 'granted') {
-      new Notification('Novo desafio!', {
+      const notification = new Notification('Novo desafio 🎉!', {
         body: `Valendo ${challenge.amount}xp`
       });
+      notification.onclick = () => {
+        window.focus();
+      }
     }
   }
 
