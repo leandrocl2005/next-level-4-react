@@ -1,3 +1,7 @@
+# Moveit
+
+Projeto feito na Next Level 4 - Rockeseat.
+
 ### Some things to remember
 
 - > yarn create next-app moveit-next
@@ -7,3 +11,14 @@
 - > yarn dev
 - > yarn add js-cookie
 - > yarn add @types/js-cookie -D
+
+### Deploy
+
+- > npm i -g vercel
+- > vercel -h
+- > vercel login
+- > vercel
+
+### Update app in production
+
+- > vercel --prod
